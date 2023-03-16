@@ -8,7 +8,7 @@ function CatCard({ item }) {
       <div className="catCard">
         <img src={item.img} alt="" />
         <span className="desc">{item.desc}</span>
-        <span className="desc">{item.title}</span>
+        <span className="desc title">{item.title}</span>
       </div>
     </Link>
   );
