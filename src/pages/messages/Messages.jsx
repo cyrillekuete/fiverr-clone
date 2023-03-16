@@ -1,8 +1,7 @@
-import React from 'react'
-import "./Messages.scss"
+import React from "react";
 
-export const Messages = () => {
-  return (
-    <div>Messages</div>
-  )
-}
+const Messages = () => {
+  return <div>Messages</div>;
+};
+
+export default Messages;
