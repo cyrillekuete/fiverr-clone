@@ -91,11 +91,11 @@ const Home = () => {
       </div>
       {/* FEATURES COMPONENT ENDS HERE */}
 
-      <Slide slidesToShow={4} arrowsScroll={4}>
+      {/* <Slide slidesToShow={4} arrowsScroll={4}>
         {projects.map((card) => (
           <ProjectCard key={card.id} card={card} />
         ))}
-      </Slide>
+      </Slide> */}
     </div>
   );
 };
